@@ -10,3 +10,16 @@ else
 == compare value  '18' == 18 -> true 
 === compare value and data type  '18' === 18 -> false
 */
+
+/***************************************************/
+// Boolean logic
+/**
+  AND:
+    true - true   -> true
+    false - true  -> false
+    false - false  -> false
+  OR:
+    true - true   -> true
+    false - true  -> true
+    false - false  -> false
+*/
