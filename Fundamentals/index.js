@@ -2,7 +2,7 @@ const age = 18
 if (age === 18) console.log('you just became an adult');
 if (age === '18')
   console.log('you just became an adult');
-else 
+else
   console.log('you are not adult yet');
 
 /**
@@ -32,8 +32,33 @@ console.log(val1 && val2); // false
 console.log(val1 || val2); // true
 console.log(!val2); // true
 const shouldDo = val1 && val2
-if(shouldDo) console.log('you are able to do ');
+if (shouldDo) console.log('you are able to do ');
 else console.log('you are not able to do ');
 
+console.log("--------------------------------------");
+/***************************************************/
 
-
+// Switch statement
+const day = 'monday'
+switch (day) {
+  case 'monday': // day === 'monday'
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record videos');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend :D');
+    break;
+    default:
+    console.log('Not a valid day!');
+}
