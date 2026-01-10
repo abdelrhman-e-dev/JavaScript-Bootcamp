@@ -62,3 +62,13 @@ switch (day) {
     default:
     console.log('Not a valid day!');
 }
+
+console.log("--------------------------------------");
+/***************************************************/
+// Ternary operator
+const personAge = 32;
+personAge >= 18 ? console.log('you are allowed to enter') : console.log('you are not allowed to enter');
+
+const bill = 275;
+const tip = bill > 50 && bill < 300 ? bill * 0.15 : bill * 0.2
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
